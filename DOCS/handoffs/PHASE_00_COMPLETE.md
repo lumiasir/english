@@ -7,6 +7,8 @@
 > **Handoff nay danh cho:** Nguoi thuc hien Phase 01 (Auth & Core Database)
 
 > **Luu y cap nhat:** Next.js 16 da bo `next lint` → dung ESLint truc tiep. TypeScript 6 da deprecated `baseUrl`. Xem ADR neu co quyet dinh moi.
+>
+> **Fix sau deploy lan 1 (2026-06-29):** Xoa `app/page.tsx` gay redirect loop `/` → `/`. Them `apps/web/vercel.json` cho Vercel monorepo config. Tren Vercel dashboard, Root Directory phai la `apps/web`.
 
 ---
 
