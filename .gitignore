@@ -38,3 +38,4 @@ npm-debug.log*
 .cursor/
 AGENTS/
 DOCS/
+settings.local.json
