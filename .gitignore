@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment variables (chỉ .env.example được commit)
+.env
+.env.*
+!.env.example
+
+# Build output
+.next/
+out/
+dist/
+
+# Turborepo
+.turbo/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+*.log
+npm-debug.log*
+
+# Misc
+.gitnexus/
+.agents/
+.cursor/
+DOCS/
