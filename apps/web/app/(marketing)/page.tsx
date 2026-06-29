@@ -3,9 +3,6 @@ export default function MarketingPage() {
     <div className="flex min-h-[80vh] flex-col items-center justify-center px-4 text-center">
       <div className="max-w-2xl space-y-8">
         <div className="space-y-4">
-          <p className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
-            ENGLISH
-          </p>
           <h1 className="text-4xl font-medium leading-tight text-foreground">
             Nền tảng học tiếng Anh thế hệ mới
           </h1>
