@@ -19,10 +19,10 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: {
     template: "%s | ENGLISH",
-    default: "Nen tang hoc tieng Anh the he moi",
+    default: "Nền tảng học tiếng Anh thế hệ mới",
   },
   description:
-    "Nen tang hoc tieng Anh the he moi cho nguoi Viet Nam (A1–C2). Ket hop 6 ky nang voi AI cham diem va SRS.",
+    "Nền tảng học tiếng Anh thế hệ mới cho người Việt Nam (A1–C2). Kết hợp 6 kỹ năng với AI chấm điểm và SRS.",
   metadataBase: new URL("https://edu.doanquangkien.com"),
   robots: {
     index: true,

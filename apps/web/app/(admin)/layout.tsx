@@ -16,9 +16,9 @@ export default function AdminLayout({
         </div>
         <nav className="space-y-1">
           {[
-            { href: "/admin", label: "Tong quan" },
-            { href: "/admin/users", label: "Nguoi dung" },
-            { href: "/admin/courses", label: "Khoa hoc" },
+            { href: "/admin", label: "Tổng quan" },
+            { href: "/admin/users", label: "Người dùng" },
+            { href: "/admin/courses", label: "Khóa học" },
           ].map((item) => (
             <Link
               key={item.href}

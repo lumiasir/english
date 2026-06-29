@@ -3,10 +3,10 @@ export default function DashboardPage() {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-medium text-foreground">
-          Bang dieu khien
+          Bảng điều khiển
         </h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Chao mung quay tro lai
+          Chào mừng quay trở lại
         </p>
       </div>
 
@@ -14,7 +14,7 @@ export default function DashboardPage() {
         {[
           { title: "Streak", value: "--" },
           { title: "XP", value: "--" },
-          { title: "Bai hoc hoan thanh", value: "--" },
+          { title: "Bài học hoàn thành", value: "--" },
         ].map((stat) => (
           <div
             key={stat.title}
@@ -30,7 +30,7 @@ export default function DashboardPage() {
 
       <div className="rounded-[4px] border border-border bg-card p-8 text-center">
         <p className="text-sm text-muted-foreground">
-          Dashboard day du se hoat dong o Phase 11
+          Dashboard đầy đủ sẽ hoạt động ở Phase 11
         </p>
       </div>
     </div>

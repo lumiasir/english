@@ -1,33 +1,33 @@
 {
   "common": {
     "siteName": "ENGLISH",
-    "tagline": "Nen tang hoc tieng Anh the he moi cho nguoi Viet Nam",
-    "comingSoon": "Sap ra mat",
-    "login": "Dang nhap",
-    "register": "Dang ky",
-    "dashboard": "Bang dieu khien",
-    "admin": "Quan tri",
-    "logout": "Dang xuat"
+    "tagline": "Nền tảng học tiếng Anh thế hệ mới cho người Việt Nam",
+    "comingSoon": "Sắp ra mắt",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "dashboard": "Bảng điều khiển",
+    "admin": "Quản trị",
+    "logout": "Đăng xuất"
   },
   "landing": {
-    "title": "ENGLISH - Nen tang hoc tieng Anh the he moi",
-    "description": "Ket hop 6 ky nang (Doc - Nghe - Noi - Viet - Ngu phap - Tu vung) voi AI cham diem va SRS.",
-    "cta": "Bat dau hoc mien phi"
+    "title": "ENGLISH - Nền tảng học tiếng Anh thế hệ mới",
+    "description": "Kết hợp 6 kỹ năng (Đọc - Nghe - Nói - Viết - Ngữ pháp - Từ vựng) với AI chấm điểm và SRS.",
+    "cta": "Bắt đầu học miễn phí"
   },
   "auth": {
-    "loginTitle": "Dang nhap",
-    "registerTitle": "Dang ky",
+    "loginTitle": "Đăng nhập",
+    "registerTitle": "Đăng ký",
     "emailLabel": "Email",
-    "passwordLabel": "Mat khau",
-    "submitLogin": "Dang nhap",
-    "submitRegister": "Tao tai khoan"
+    "passwordLabel": "Mật khẩu",
+    "submitLogin": "Đăng nhập",
+    "submitRegister": "Tạo tài khoản"
   },
   "dashboard": {
-    "title": "Bang dieu khien",
-    "welcome": "Chao mung quay tro lai"
+    "title": "Bảng điều khiển",
+    "welcome": "Chào mừng quay trở lại"
   },
   "admin": {
-    "title": "Quan tri",
-    "overview": "Tong quan he thong"
+    "title": "Quản trị",
+    "overview": "Tổng quan hệ thống"
   }
 }

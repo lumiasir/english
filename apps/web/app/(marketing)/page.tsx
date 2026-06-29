@@ -7,30 +7,30 @@ export default function MarketingPage() {
             ENGLISH
           </p>
           <h1 className="text-4xl font-medium leading-tight text-foreground">
-            Nen tang hoc tieng Anh the he moi
+            Nền tảng học tiếng Anh thế hệ mới
           </h1>
           <p className="text-base text-muted-foreground">
-            Ket hop 6 ky nang (Doc — Nghe — Noi — Viet — Ngu phap — Tu vung) voi
-            AI cham diem va SRS.
+            Kết hợp 6 kỹ năng (Đọc — Nghe — Nói — Viết — Ngữ pháp — Từ vựng) với
+            AI chấm điểm và SRS.
           </p>
         </div>
 
         <div className="rounded-[4px] border border-border bg-card px-8 py-6">
           <p className="text-lg font-medium text-foreground">Coming Soon</p>
           <p className="mt-2 text-sm text-muted-foreground">
-            Chung toi dang xay dung nen tang hoc tieng Anh the he moi. Hay quay
-            lai som!
+            Chúng tôi đang xây dựng nền tảng học tiếng Anh thế hệ mới. Hãy quay
+            lại sớm!
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-6 text-left sm:grid-cols-3">
           {[
-            { label: "Doc", en: "Reading" },
+            { label: "Đọc", en: "Reading" },
             { label: "Nghe", en: "Listening" },
-            { label: "Noi", en: "Speaking" },
-            { label: "Viet", en: "Writing" },
-            { label: "Ngu phap", en: "Grammar" },
-            { label: "Tu vung", en: "Vocabulary" },
+            { label: "Nói", en: "Speaking" },
+            { label: "Viết", en: "Writing" },
+            { label: "Ngữ pháp", en: "Grammar" },
+            { label: "Từ vựng", en: "Vocabulary" },
           ].map((skill) => (
             <div
               key={skill.en}

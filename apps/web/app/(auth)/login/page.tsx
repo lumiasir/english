@@ -2,9 +2,9 @@ export default function LoginPage() {
   return (
     <div className="rounded-[4px] border border-border bg-card p-8">
       <div className="mb-6 text-center">
-        <h1 className="text-2xl font-medium text-foreground">Dang nhap</h1>
+        <h1 className="text-2xl font-medium text-foreground">Đăng nhập</h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Dang nhap de bat dau hoc
+          Đăng nhập để bắt đầu học
         </p>
       </div>
 
@@ -30,7 +30,7 @@ export default function LoginPage() {
             htmlFor="password"
             className="block text-sm font-medium text-foreground"
           >
-            Mat khau
+            Mật khẩu
           </label>
           <input
             id="password"
@@ -46,12 +46,12 @@ export default function LoginPage() {
           disabled
           className="w-full rounded-[4px] bg-primary px-4 py-2 text-sm font-medium text-primary-foreground disabled:cursor-not-allowed disabled:opacity-50"
         >
-          Dang nhap
+          Đăng nhập
         </button>
       </div>
 
       <p className="mt-4 text-center text-xs text-muted-foreground">
-        Chuc nang dang nhap se hoat dong o Phase 01
+        Chức năng đăng nhập sẽ hoạt động ở Phase 01
       </p>
     </div>
   );
